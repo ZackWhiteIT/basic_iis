@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <title>Test - Home</title>
+    <meta name="viewport" conent="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="account.html">My Account</a></li>
+        <li><a href="admin.html">Admin</a></li>
+    </ul>
+    <script type="text/javascript">
+        function getTime() {
+            document.getElementById('time').innerHTML = Date()
+        }
+    </script>
+</head>
+
+<body onLoad="getTime()">
+    <h1>Home</h1>
+    <p>Welcome to the test website.</p>
+    <p>Current server time:</p>
+    <p id="time"></p>
+    <div class="footer">
+        <p>&copy; 2019 Zack White. All rights reserved.</p>
+    </div>
+</body>
+
+</html>
